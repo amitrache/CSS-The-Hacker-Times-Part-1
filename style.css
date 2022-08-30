@@ -42,9 +42,13 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     text-align: center;
-    font-family:'Abril Fatface';
+    font-family:'Abril Fatface'
 }
 
 h2 {
@@ -61,7 +65,7 @@ h5 {
 }
 
 p {
-    font-family: 'Source Sans Pro'
+    font-family: 'Source Sans Pro';
 }
 
 #img1 {
@@ -79,4 +83,22 @@ p {
 .more-articles {
     display: inline-grid;
     grid-template-columns: auto auto;
+}
+
+footer {
+    text-align: center;
+    padding:3px;
+    border-top:1px solid #777;
+}
+
+#footer {
+    font-family: 'Abril FatFace';
+    font-size:small;
+    text-align: center;
+    color: #777;
+}
+
+#footnav ul {
+    border-top: 0em solid white;
+    border-bottom: 0em solid white;
 }
