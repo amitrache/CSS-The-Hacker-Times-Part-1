@@ -75,6 +75,8 @@ p {
     padding: 10px;
 }
 
-section {
-    display: inline-block;
+
+.more-articles {
+    display: inline-grid;
+    grid-template-columns: auto auto;
 }
